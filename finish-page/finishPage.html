@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="finishPageStyle.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="container">
+        <div id="top-container">
+          <div id="top-container-content">
+            <div id="user-image-container" class="no-image">
+              <h1 class=""><i class="fa-solid fa-user"></i></h1>
+            </div>
+
+            <p id="user-name"></p>
+          </div>
+
+          <button id="logout-button">Logout</button>
+        </div>
+
+        <div id="finished-wrapper">
+          <div id="left-side-container">
+            <p id="congratulations-text">You finished the test!</p>
+            <p id="score-text">
+              You scored <span id="score-span">14</span>/<span
+                id="total-score-span"
+                >30</span
+              >!
+            </p>
+
+            <div id="buttons-container">
+              <button id="check-results-button">
+                Check Results <i class="fa-solid fa-arrow-right"></i>
+              </button>
+              <button class="retake-test-button">Re-take test</button>
+            </div>
+          </div>
+
+          <div id="right-side-container">
+            <div id="image-background"></div>
+            <img src="./Asset%2035.png" alt="Welcome!" />
+          </div>
+        </div>
+
+        <div id="time-wrapper" class="display-none">
+          <div id="time-image-container">
+            <div id="time-image-background"></div>
+            <img id="clock" src="clock%20frame.png" />
+            <img id="clock-hand" src="clock%20hand.png" />
+          </div>
+
+          <div id="time-wrapper-content">
+            <p id="oops-p">Oops!</p>
+            <p id="time-p">You ran out of time.</p>
+          </div>
+
+          <button class="retake-test-button">Re-take test</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="finishPageScript.js"></script>
+  </body>
+</html>

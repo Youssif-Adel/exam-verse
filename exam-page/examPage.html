@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="examStyle.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="container">
+        <div id="top-container">
+          <div id="top-container-content">
+            <div id="user-image-container" class="no-image">
+              <h1 class=""><i class="fa-solid fa-user"></i></h1>
+            </div>
+
+            <p id="user-name"></p>
+          </div>
+
+          <button id="logout-button">Logout</button>
+
+          <input type="checkbox" id="menu-button" class="display-none" />
+          <label id="menu-button-label" for="menu-button"
+            ><i class="fa-solid fa-bars"></i
+          ></label>
+        </div>
+
+        <div id="exam-question-container">
+          <div id="exam-container">
+            <div id="exam-timer-container">
+              <h1><i class="fa-regular fa-clock"></i></h1>
+              <div id="exam-timer-contents">
+                <p id="time-remaining-text">Time remaining</p>
+                <p id="exam-time"></p>
+              </div>
+
+              <div id="score-container" class="display-none">
+                <p>
+                  <i class="fa-regular fa-clipboard"></i> Score :
+                  <span id="score-span"></span>/<span
+                    id="total-score-span"
+                  ></span>
+                </p>
+              </div>
+            </div>
+
+            <div id="question-container">
+              <h2 class="color-blue"></h2>
+              <p></p>
+            </div>
+
+            <div id="choices-container">
+              <div class="choice">
+                <h2 class="color-blue">A.</h2>
+                <p id="choice-1"></p>
+                <div class="choices-icons display-none">
+                  <i class="fa-solid fa-circle-check"></i>
+                </div>
+                <div class="choices-icons display-none">
+                  <i class="fa-solid fa-circle-xmark"></i>
+                </div>
+              </div>
+              <div class="choice">
+                <h2 class="color-blue">B.</h2>
+                <p id="choice-2"></p>
+                <div class="choices-icons display-none">
+                  <i class="fa-solid fa-circle-check"></i>
+                </div>
+                <div class="choices-icons display-none">
+                  <i class="fa-solid fa-circle-xmark"></i>
+                </div>
+              </div>
+              <div class="choice">
+                <h2 class="color-blue">C.</h2>
+                <p id="choice-3"></p>
+                <div class="choices-icons display-none">
+                  <i class="fa-solid fa-circle-check"></i>
+                </div>
+                <div class="choices-icons display-none">
+                  <i class="fa-solid fa-circle-xmark"></i>
+                </div>
+              </div>
+              <div class="choice">
+                <h2 class="color-blue">D.</h2>
+                <p id="choice-4"></p>
+                <div class="choices-icons display-none">
+                  <i class="fa-solid fa-circle-check"></i>
+                </div>
+                <div class="choices-icons display-none">
+                  <i class="fa-solid fa-circle-xmark"></i>
+                </div>
+              </div>
+            </div>
+
+            <div id="exam-buttons-container">
+              <button
+                id="previous-button"
+                class="move-question-button disabled"
+              >
+                <i class="fa-solid fa-arrow-left"></i> <span>Previous</span>
+              </button>
+              <button id="flag-button">
+                <i class="fa-solid fa-flag"></i> Flag question
+              </button>
+              <button id="next-button" class="move-question-button">
+                Next <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+
+          <div id="questions-container">
+            <div id="question-container-content">
+              <h1><i class="fa-solid fa-circle-question"></i> Questions</h1>
+
+              <div id="questions-number-container"></div>
+            </div>
+
+            <button class="disabled" id="submit-button">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="examScript.js"></script>
+  </body>
+</html>

@@ -1,0 +1,281 @@
+:root {
+  --primary-color: #082450;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+canvas {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #05081f;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+#wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#total-wrapper {
+  position: relative;
+  background-color: white;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-wrapper {
+  padding: 40px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  max-width: 600px;
+  overflow: hidden;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-section {
+  gap: 5px;
+}
+
+h4 {
+  color: #393e46;
+}
+
+.login-section {
+  gap: 20px;
+  /*height: 350px;*/
+  justify-content: center;
+}
+
+.input-section {
+  gap: 3px;
+  min-height: 90px;
+}
+
+input {
+  outline: none;
+  font-size: larger;
+  border-radius: 5px;
+  border: 2px solid #eeeeee;
+  padding: 10px;
+}
+input:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 7px #719ece;
+}
+
+.buttons {
+  cursor: pointer;
+  background-color: var(--primary-color);
+  color: white;
+  font-size: x-large;
+  padding: 10px;
+  width: 450px;
+  border-radius: 10px;
+  border: 1px solid var(--primary-color);
+  transition: 0.3s ease;
+}
+
+.buttons:hover {
+  background-color: #1353b3;
+  cursor: pointer;
+}
+
+.buttons:active {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+
+.contacts-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.contacts {
+  color: var(--primary-color);
+  font-size: x-large;
+  padding: 20px;
+  width: 70px;
+  aspect-ratio: 1/1;
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
+  text-align: center;
+  transition: 0.3s ease;
+}
+.contacts:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 5px #719ece;
+}
+
+#cover {
+  position: absolute;
+  background-color: var(--primary-color);
+  width: 50%;
+  height: 100%;
+  z-index: 1;
+  border-radius: 20px;
+  transition: 0.5s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
+/* using left and right to create a transition */
+.left {
+  left: 0;
+}
+
+.right {
+  left: 50%;
+}
+
+#transition-button {
+  font-size: larger;
+  padding: 10px 70px;
+  border: 1px solid white;
+  border-radius: 15px;
+  background-color: #0e3e88;
+  color: white;
+}
+
+.error {
+  padding-left: 2%;
+  color: darkred;
+  font-size: small;
+}
+
+#login-button-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+  height: 50px;
+}
+
+h1 {
+  color: var(--primary-color);
+}
+h2 {
+  font-weight: 300;
+}
+#transition-button {
+  background-color: var(--primary-color);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+#transition-button:hover {
+  background-color: white;
+  color: var(--primary-color);
+}
+
+.display-none {
+  display: none;
+}
+
+#responsive-div {
+  width: 60%;
+  height: 3rem;
+  border-radius: 1rem;
+  display: none;
+}
+
+#responsive-div button {
+  font-size: large;
+  font-weight: 400;
+  border: 1px solid black;
+  transition: 0.5s ease;
+}
+
+#responsive-login {
+  border-radius: 1rem 0 0 1rem;
+}
+
+#responsive-sign {
+  border-radius: 0 1rem 1rem 0;
+  border-left: none;
+}
+
+.active {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+@media screen and (max-width: 1200px) {
+  html,
+  body {
+    overflow: auto;
+    height: auto;
+  }
+
+  canvas {
+    display: none;
+  }
+
+  #cover {
+    display: none;
+  }
+
+  #total-wrapper {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+    padding-top: 5rem;
+  }
+
+  #login-wrapper {
+    width: 100%;
+    max-width: none;
+    padding: 10% !important;
+  }
+
+  #signIn-Wrapper {
+    width: 100%;
+    max-width: none;
+    padding: 10% !important;
+  }
+
+  button {
+    width: 100% !important;
+  }
+
+  #responsive-div {
+    display: flex;
+  }
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Hello</title>
+</head>
+<body>
+<canvas id="floatingBalls"></canvas>
+
+<div id="wrapper">
+    <div id="total-wrapper">
+        <div id="cover" class="right">
+            <h1 id="transition-head">Hello!</h1>
+            <h2 id="transition-body">Don't have an account?</h2>
+            <button id="transition-button">Sign Up</button>
+        </div>
+
+        <div id="responsive-div">
+            <button id="responsive-login" class="active">Sign In</button>
+            <button id="responsive-sign">Sign Up</button>
+        </div>
+
+        <div id="login-wrapper" class="login-wrapper">
+            <div class="section top-section">
+                <h1>Sign In</h1>
+                <h4>Welcome, Good to see you!</h4>
+            </div>
+
+            <div class="contacts-wrapper">
+                <a href="#"
+                >
+                    <div class="contacts"><i class="fa-brands fa-google"></i></div
+                    >
+                </a>
+                <a href="#"
+                >
+                    <div class="contacts"><i class="fa-brands fa-github"></i></div
+                    >
+                </a>
+                <a href="#"
+                >
+                    <div class="contacts">
+                        <i class="fa-brands fa-facebook-f"></i></div
+                    >
+                </a>
+                <a href="#"
+                >
+                    <div class="contacts">
+                        <i class="fa-brands fa-linkedin-in"></i></div
+                    >
+                </a>
+            </div>
+
+            <div class="section login-section">
+                <div class="section input-section">
+                    <label for="login-email-input">Email </label>
+                    <input type="email" id="login-email-input"/>
+                    <p class="error"></p>
+                </div>
+
+                <div class="section input-section">
+                    <label for="login-password-input">Password</label>
+                    <input type="password" id="login-password-input"/>
+                    <p class="error"></p>
+                </div>
+            </div>
+
+            <div id="login-button-wrapper">
+                <button id="login-button" class="buttons">Login</button>
+                <p class="error" id="login-error"></p>
+            </div>
+        </div>
+
+        <div id="signIn-Wrapper" class="login-wrapper">
+            <div class="section top-section">
+                <h1>Create an account</h1>
+                <h4>Welcome, Good to see you!</h4>
+            </div>
+
+            <div class="contacts-wrapper">
+                <a href="#"
+                >
+                    <div class="contacts"><i class="fa-brands fa-google"></i></div
+                    >
+                </a>
+                <a href="#"
+                >
+                    <div class="contacts"><i class="fa-brands fa-github"></i></div
+                    >
+                </a>
+                <a href="#"
+                >
+                    <div class="contacts">
+                        <i class="fa-brands fa-facebook-f"></i></div
+                    >
+                </a>
+                <a href="#"
+                >
+                    <div class="contacts">
+                        <i class="fa-brands fa-linkedin-in"></i></div
+                    >
+                </a>
+            </div>
+
+            <div class="section login-section">
+                <div class="section input-section">
+                    <label for="sign-name-input">Name</label>
+                    <input type="text" id="sign-name-input"/>
+                    <p class="error"></p>
+                </div>
+
+                <div class="section input-section">
+                    <label for="sign-email-input">Email</label>
+                    <input type="email" id="sign-email-input"/>
+                    <p class="error"></p>
+                </div>
+
+                <div class="section input-section">
+                    <label for="sign-password-input">Password</label>
+                    <input type="password" id="sign-password-input"/>
+                    <p class="error"></p>
+                </div>
+
+                <!--                    <div class="section input-section">-->
+                <!--                        <label for="sign-image-input">Image</label>-->
+                <!--                        <input type="image" id="sign-image-input">-->
+                <!--                        <p class="error"></p>-->
+                <!--                    </div>-->
+            </div>
+
+            <button id="sign-button" class="buttons">Sign Up</button>
+            <p class="error"></p>
+        </div>
+    </div>
+</div>
+
+<script src="script.js" type="module"></script>
+<script src="./background/background.js" type="module"></script>
+</body>
+</html>

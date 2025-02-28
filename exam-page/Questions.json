@@ -1,0 +1,250 @@
+{
+  "questions": [
+    {
+      "question": "What is 2 + 2?",
+      "choices": ["3", "4", "5", "6"],
+      "correct": "4"
+    },
+    {
+      "question": "What color is the sky?",
+      "choices": ["Green", "Blue", "Red", "Yellow"],
+      "correct": "Blue"
+    },
+    {
+      "question": "Which animal barks?",
+      "choices": ["Cat", "Dog", "Fish", "Bird"],
+      "correct": "Dog"
+    },
+    {
+      "question": "What is the first letter of the alphabet?",
+      "choices": ["B", "A", "C", "D"],
+      "correct": "A"
+    },
+    {
+      "question": "What is 5 - 3?",
+      "choices": ["3", "1", "2", "4"],
+      "correct": "2"
+    },
+    {
+      "question": "What do cows drink?",
+      "choices": ["Milk", "Water", "Juice", "Soda"],
+      "correct": "Water"
+    },
+    {
+      "question": "What is 10 divided by 2?",
+      "choices": ["2", "5", "10", "1"],
+      "correct": "5"
+    },
+    {
+      "question": "What is the capital of France?",
+      "choices": ["London", "Paris", "Rome", "Berlin"],
+      "correct": "Paris"
+    },
+    {
+      "question": "What color is a banana?",
+      "choices": ["Green", "Yellow", "Red", "Blue"],
+      "correct": "Yellow"
+    },
+    {
+      "question": "What does a bee make?",
+      "choices": ["Milk", "Honey", "Butter", "Cheese"],
+      "correct": "Honey"
+    },
+    {
+      "question": "What is 3 + 3?",
+      "choices": ["5", "6", "7", "8"],
+      "correct": "6"
+    },
+    {
+      "question": "What do we use to write on paper?",
+      "choices": ["Brush", "Pencil", "Chalk", "Pen"],
+      "correct": "Pen"
+    },
+    {
+      "question": "Which of these is a fruit?",
+      "choices": ["Carrot", "Apple", "Cucumber", "Lettuce"],
+      "correct": "Apple"
+    },
+    {
+      "question": "What is the color of grass?",
+      "choices": ["Green", "Red", "Yellow", "Blue"],
+      "correct": "Green"
+    },
+    {
+      "question": "Which shape has three sides?",
+      "choices": ["Square", "Triangle", "Circle", "Rectangle"],
+      "correct": "Triangle"
+    },
+    {
+      "question": "Which of these is a vehicle?",
+      "choices": ["Car", "Tree", "House", "Chair"],
+      "correct": "Car"
+    },
+    {
+      "question": "What is 4 + 4?",
+      "choices": ["6", "7", "8", "9"],
+      "correct": "8"
+    },
+    {
+      "question": "What is the opposite of hot?",
+      "choices": ["Warm", "Cold", "Cool", "Hotter"],
+      "correct": "Cold"
+    },
+    {
+      "question": "Which of these is a color?",
+      "choices": ["Red", "Tall", "Fast", "Small"],
+      "correct": "Red"
+    },
+    {
+      "question": "Which of these animals can fly?",
+      "choices": ["Dog", "Cat", "Bird", "Fish"],
+      "correct": "Bird"
+    },
+    {
+      "question": "What is 7 - 2?",
+      "choices": ["5", "3", "6", "4"],
+      "correct": "5"
+    },
+    {
+      "question": "Which of these is a liquid?",
+      "choices": ["Ice", "Steam", "Water", "Rock"],
+      "correct": "Water"
+    },
+    {
+      "question": "Which of these is a day of the week?",
+      "choices": ["January", "Monday", "April", "Summer"],
+      "correct": "Monday"
+    },
+    {
+      "question": "Which of these is a body part?",
+      "choices": ["Table", "Chair", "Arm", "Lamp"],
+      "correct": "Arm"
+    },
+    {
+      "question": "What is the color of the sun?",
+      "choices": ["Red", "Green", "Yellow", "Blue"],
+      "correct": "Yellow"
+    },
+    {
+      "question": "What is 6 + 1?",
+      "choices": ["5", "6", "7", "8"],
+      "correct": "7"
+    },
+    {
+      "question": "What is 9 - 4?",
+      "choices": ["7", "5", "4", "3"],
+      "correct": "5"
+    },
+    {
+      "question": "Which of these animals lives in water?",
+      "choices": ["Dog", "Fish", "Cat", "Bird"],
+      "correct": "Fish"
+    },
+    {
+      "question": "What is 8 + 2?",
+      "choices": ["9", "10", "11", "12"],
+      "correct": "10"
+    },
+    {
+      "question": "What is the opposite of tall?",
+      "choices": ["Short", "Big", "Wide", "Small"],
+      "correct": "Short"
+    },
+    {
+      "question": "What is 4 - 2?",
+      "choices": ["3", "2", "1", "0"],
+      "correct": "2"
+    },
+    {
+      "question": "Which of these is a vegetable?",
+      "choices": ["Apple", "Carrot", "Banana", "Orange"],
+      "correct": "Carrot"
+    },
+    {
+      "question": "Which of these is a color?",
+      "choices": ["Big", "Blue", "Fast", "Soft"],
+      "correct": "Blue"
+    },
+    {
+      "question": "Which of these is a fruit?",
+      "choices": ["Tomato", "Lettuce", "Carrot", "Cucumber"],
+      "correct": "Tomato"
+    },
+    {
+      "question": "What is the color of milk?",
+      "choices": ["White", "Black", "Green", "Red"],
+      "correct": "White"
+    },
+    {
+      "question": "What is 1 + 1?",
+      "choices": ["1", "2", "3", "4"],
+      "correct": "2"
+    },
+    {
+      "question": "Which of these is a number?",
+      "choices": ["Tree", "House", "Four", "Blue"],
+      "correct": "Four"
+    },
+    {
+      "question": "Which of these is a sound?",
+      "choices": ["Loud", "Quiet", "Roar", "Fast"],
+      "correct": "Roar"
+    },
+    {
+      "question": "Which of these is a shape?",
+      "choices": ["Triangle", "Tall", "Fast", "Heavy"],
+      "correct": "Triangle"
+    },
+    {
+      "question": "Which of these is a plant?",
+      "choices": ["Car", "House", "Tree", "Chair"],
+      "correct": "Tree"
+    },
+    {
+      "question": "What is 3 - 1?",
+      "choices": ["2", "1", "0", "3"],
+      "correct": "2"
+    },
+    {
+      "question": "What is 5 + 0?",
+      "choices": ["4", "5", "6", "7"],
+      "correct": "5"
+    },
+    {
+      "question": "Which of these animals can swim?",
+      "choices": ["Bird", "Dog", "Fish", "Cat"],
+      "correct": "Fish"
+    },
+    {
+      "question": "What is 2 x 2?",
+      "choices": ["2", "4", "6", "8"],
+      "correct": "4"
+    },
+    {
+      "question": "Which of these is an animal?",
+      "choices": ["Dog", "Car", "House", "Tree"],
+      "correct": "Dog"
+    },
+    {
+      "question": "Which of these is hot?",
+      "choices": ["Fire", "Ice", "Water", "Air"],
+      "correct": "Fire"
+    },
+    {
+      "question": "Which of these is cold?",
+      "choices": ["Steam", "Ice", "Lava", "Fire"],
+      "correct": "Ice"
+    },
+    {
+      "question": "What is 3 + 1?",
+      "choices": ["2", "3", "4", "5"],
+      "correct": "4"
+    },
+    {
+      "question": "What color is a stop sign?",
+      "choices": ["Red", "Green", "Blue", "Yellow"],
+      "correct": "Red"
+    }
+  ]
+
+}
